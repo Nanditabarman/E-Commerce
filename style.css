@@ -1,0 +1,298 @@
+   
+    .container{
+      overflow: hidden;
+    }
+    .container h1{
+      color: rgb(0, 0, 51);
+    }
+
+  header{
+    background-color: rgb(1, 9, 75);
+  }
+  .menu1{
+    width: 700px;
+  }
+  span:hover{
+ color: orangered;
+}
+  .icon{
+    font-size: 20px;
+    background: none;
+  }
+  .carousel-caption{
+    transform: translateY(-200px);
+  }
+  .carousel-caption h1{
+    font-size: 70px;
+    color: rgb(1, 9, 75);
+    font-weight: bold;
+  }
+  .carousel-caption h3{
+    font-size: 30px;
+    color: rgb(1, 9, 75);
+  }
+.card-img-overlay{
+  color:  rgb(1, 9, 75);
+}
+.card{
+  cursor: pointer;
+}
+ .up{
+  animation: fade 1s ease;
+ }
+ .blue{
+  color: rgb(1, 9, 75);
+ }
+
+ .navbar-toggler-collapse {
+  display: none;
+ }
+ @keyframes fade{
+  0%{ opacity: 0;
+    transform: translateY(80px);}
+    25%{ opacity: 0;
+      transform: translateY(80px);}
+ }
+.card1:hover img{
+ opacity: 0.6;
+ transition: 0.8s all ease-in-out;
+}
+button{
+  cursor: pointer;
+}
+i{
+  cursor: pointer;
+}
+.btn1{
+  background-color: rgb(1, 9, 75);
+  color: #ffff;
+  transition: 0.5s all ease-in-out;
+}
+.btn1:hover{
+  background-color: #acc5f6;
+  color: rgb(0, 0, 51);
+} 
+.overlay{
+  transform: translateY(220px);
+  font-size: 18px;
+ color: chartreuse;
+ opacity: 0;
+}
+
+.card-o:hover .overlay{
+  opacity: 1;
+  transition: 1s all ease-in-out;
+}
+.card-o:hover{
+  opacity: 0.8;
+  transition: 1s all ease-in-out;
+}
+.text{
+  transform: translateY(150px);
+}
+.text h1{
+  transform: translateX(50px);
+}
+.text p{
+  transform: translateX(50px);
+}
+.top{
+  margin-top: 560px;
+}
+.text2{
+  transform: translateY(150px);
+}
+.text2 h1{
+  transform: translateX(-50px);
+}
+.text2 p{
+  transform: translateX(-50px);
+}
+.parallax {
+  /* The image used */
+  background-image:linear-gradient( rgba(94, 80, 255, 0.3),rgba(85, 108, 241, 0.3)), url(image/parallax.png);
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.avter{
+  width: 50px;
+  height: 45px;
+}
+.fa-star{
+  color: yellow;
+}
+.carousel-item p{
+  color: rgb(1, 9, 75);
+}
+.bg{
+  background-color: rgb(1, 9, 75);
+}
+.image{
+
+background-image:linear-gradient( rgba(5, 2, 35, 0.3),rgba(1, 5, 32, 0.3)), url(image/New\ Project.png);
+/* Set a specific height */
+min-height: 400px; 
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.align{
+  transform: translateY(100px);
+}
+.overlay2{
+  transform: translateY(240px);
+  margin-left: 250px;
+}
+.card3 h5{
+  color: rgb(1, 9, 75);
+  transition: 1s all ease;
+}
+.card3:hover h5{
+  color: orangered;
+}
+.footer{
+  background-color: rgb(237, 224, 221);
+}
+.footer h4{
+  color:rgb(0, 0, 51) ;
+}
+.footer p{
+  color: rgb(18, 18, 65);
+  cursor: pointer;
+  transition: 0.5s all ease-in-out;
+}
+.footer p:hover{
+   color: orangered;
+   transform: translateX(10px);
+}
+.index i{
+  font-size: 25px;
+  color: rgb(0, 0, 51);
+}
+.collapse1 p{
+  color: rgb(1, 1, 24);
+  font-weight: bold;
+}
+.box{
+  background-color: rgb(0, 0, 51);
+}
+.left-b{
+  border-left: 15px solid rgb(246, 110, 95);
+}
+
+/* collapes */
+.faq-section .mb-0 > a {
+  display: block;
+  position: relative;
+}
+
+.faq-section .mb-0 > a:after {
+  content: "\f078";
+  font-family: "Font Awesome 5 Free";
+  position: absolute;
+  right: 0;
+  font-weight: 600;
+}
+
+.faq-section .mb-0 > a[aria-expanded="true"]:after {
+  content: "\f077";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
+}
+
+.btn2{
+  background-color: rgb(9, 9, 55);
+  color: #ffff;
+  transition: 0.5s all ease-in-out;
+}
+.btn2:hover{
+  background-color: #ffff;
+  color: rgb(1, 1, 24);
+}
+.bg{
+  background-color: rgb(215, 215, 215);
+}
+.input{
+  background-color: rgb(215, 215, 215);
+}
+
+@media screen and (max-width: 768px){
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+  }
+  .text2{
+    transform: translateY(0px);
+  }
+ .card3 button{
+    display: none;
+ }
+ .icon{
+  display: none;
+ }
+ .navbar-toggler-collapse {
+  display: block;
+ }
+ .menu1{
+  width: 100%;
+ }
+
+}
+
+@media screen and (max-width: 415px){
+  .text2 {
+    transform: translateY(0px);
+  }
+  .text2 h1{
+    transform: translateX(-10px);
+  }
+  .text2 p{
+    transform: translateX(-10px);
+  }
+ .card3 button{
+    display: none;
+ }
+ .Third{
+  margin-top: -74px;
+ }
+.ind{
+  display: none;
+}
+.login{
+  display: none;
+}
+.navbar{
+ margin-left: -50px;
+}
+.carousel-caption{
+  transform: translateY(-180px);
+ font-size: 10px;
+}
+.carousel-caption h1{
+  font-size: 32px;
+}
+.carousel-caption h3{
+  font-size: 20px;
+}
+.navbar-toggler-collapse {
+  display: block;
+ }
+ .menu1{
+  width: 100px;
+ }
+ .input-r{
+  display:none ;
+ }
+ .index i{
+  font-size: 18px;
+}
+}
